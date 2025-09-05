@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .hero {
+      background: #f4f4f4;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .features {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 20px;
+    }
+    .feature {
+      width: 30%;
+      padding: 20px;
+      background: #fafafa;
+      border-radius: 10px;
+      text-align: center;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    @media(max-width: 768px){
+      .features{
+        flex-direction: column;
+        align-items: center;
+      }
+      .feature{
+        width: 80%;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>THE ROAR</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to My Landing Page</h1>
+    <p>Create amazing websites with simple HTML & CSS.</p>
+    <a href="#" class="btn">Get Started</a>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h2>Fast</h2>
+      <p>Quick and responsive design for all devices.</p>
+    </div>
+    <div class="feature">
+      <h2>Simple</h2>
+      <p>Clean, minimal, and easy-to-use interface.</p>
+    </div>
+    <div class="feature">
+      <h2>Creative</h2>
+      <p>Unleash your imagination and build freely.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 THE ROAR | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
